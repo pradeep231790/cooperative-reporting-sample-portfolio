@@ -1,0 +1,32 @@
+// DAX measures for Ticketing Tool Status: PACS Computerization, State A
+// Create a table named _Measures (Enter data, blank) and add each measure below.
+
+// All support tickets logged in the ticketing tool
+Tickets raised = CALCULATE(SUM(tickets_summary[value]), tickets_summary[metric] = "Total Issue Raised")
+
+// Tickets closed at any level
+Tickets resolved = CALCULATE(SUM(tickets_summary[value]), tickets_summary[metric] = "Total Issue Resolved")
+
+// Share of raised tickets resolved
+Resolution rate = DIVIDE([Tickets resolved], [Tickets raised])
+
+// Tickets still open
+Pending tickets = CALCULATE(SUM(tickets_summary[value]), tickets_summary[metric] = "Total Pending Issue")
+
+// Share of resolutions closed by the L1 support centre
+Resolved at first level (L1) = DIVIDE(CALCULATE(SUM(tickets_summary[value]), tickets_summary[metric] = "Total Issue Resolved by L1"), [Tickets resolved])
+
+// Share needing vendor-side fixes
+Resolved by Vendor (software vendor) = DIVIDE(CALCULATE(SUM(tickets_summary[value]), tickets_summary[metric] = "Total Issue Resolved by Vendor"), [Tickets resolved])
+
+// Open tickets in the Vendor-side pending list
+Backlog on 6-Nov-2025 = SUM(backlog_nov2025[tickets])
+
+// Open tickets older than 2 days (assumed TAT)
+Backlog over TAT (6-Nov-2025) = CALCULATE(SUM(backlog_nov2025[over_tat]), backlog_nov2025[dimension] = "side")
+
+// Completed development tasks as share of the tracker
+Dev tasks completed = DIVIDE(CALCULATE(SUM(dev_tasks_summary[tasks]), dev_tasks_summary[dimension] = "status", dev_tasks_summary[key] = "Completed"), CALCULATE(SUM(dev_tasks_summary[tasks]), dev_tasks_summary[dimension] = "status"))
+
+// Resolved customization requests as share of all requested
+Customizations resolved = DIVIDE(CALCULATE(SUM(customizations_summary[value]), customizations_summary[metric] = "Resolved"), CALCULATE(SUM(customizations_summary[value]), customizations_summary[metric] = "Total Customizations Requested"))

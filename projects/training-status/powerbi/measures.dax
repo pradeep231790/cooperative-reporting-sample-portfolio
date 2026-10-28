@@ -1,0 +1,29 @@
+// DAX measures for Training Status: PACS Computerization, State A
+// Create a table named _Measures (Enter data, blank) and add each measure below.
+
+// Training sessions reported by districts for February 2026
+Trainings in Feb-2026 round = SUM(feb2026_district[trainings])
+
+// People trained in the February 2026 round
+Participants in Feb-2026 round = SUM(feb2026_district[participants])
+
+// Districts reporting at least one session, of 52
+Districts with a training (Feb-2026) = CALCULATE(DISTINCTCOUNT(feb2026_district[district]), feb2026_district[trainings] > 0)
+
+// Mean attendance per Feb-2026 session
+Average participants per session = DIVIDE([Participants in Feb-2026 round], [Trainings in Feb-2026 round])
+
+// Online sessions as share of online + offline
+Online share (Feb-2026) = DIVIDE(SUM(feb2026_district[online]), SUM(feb2026_district[online]) + SUM(feb2026_district[offline]))
+
+// PACS whose staff have a training date in the 7-15 Feb refresher plan
+Refresher coverage (PACS with a training date) = DIVIDE(SUM(refresher_district[pacs_with_training_date]), SUM(refresher_district[pacs]))
+
+// Sessions with attendance recorded in the monthly trackers
+Sessions May-Oct 2025 = SUM(monthly_2025[sessions])
+
+// Total attendance recorded
+Attendance May-Oct 2025 = SUM(monthly_2025[attendance])
+
+// Attendees in the Feb-Mar 2024 baseline round
+e-Daksh attendees 2024 = SUM(edaksh_2024[attendees])

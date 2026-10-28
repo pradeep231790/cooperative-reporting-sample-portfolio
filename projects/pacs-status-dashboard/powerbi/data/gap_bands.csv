@@ -1,0 +1,11 @@
+measure,band,pacs
+Entry gap,0-30 days,612
+Entry gap,31-90,234
+Entry gap,91-180,447
+Entry gap,181-365,1157
+Entry gap,>365,45
+Day-end gap,0-30 days,426
+Day-end gap,31-90,82
+Day-end gap,91-180,133
+Day-end gap,181-365,1399
+Day-end gap,>365,455

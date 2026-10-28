@@ -1,0 +1,11 @@
+measure,source,date,value,total_pacs
+Audit,4-Dec deck,2025-11-20,1991,2495
+Audit,4-Dec deck,2025-11-26,2115,2495
+Audit,4-Dec deck,2025-12-03,2193,2495
+Audit,18-Dec deck,2025-11-14,2034,2496
+Audit,18-Dec deck,2025-12-18,2388,2496
+e-PACS completed,4-Dec deck,2025-11-20,324,2495
+e-PACS completed,4-Dec deck,2025-11-26,366,2495
+e-PACS completed,4-Dec deck,2025-12-03,533,2495
+e-PACS certificates,18-Dec deck,2025-11-14,449,2496
+e-PACS certificates,18-Dec deck,2025-12-18,1022,2496

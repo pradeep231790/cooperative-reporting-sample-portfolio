@@ -1,0 +1,10 @@
+integration,purpose,status
+State family-ID portal portal,"Verify farmer identity, family details, mobile and Aadhaar linking automatically",Pending at Vendor (national review sub-committee deck 4-Dec-2025)
+State land-record portal,Land record validation,Pending at Vendor (national review sub-committee deck 4-Dec-2025)
+State crop-loan portal,Crop loan data exchange,Pending at Vendor (national review sub-committee deck 4-Dec-2025)
+State procurement portal,Loan recovery data for support-price payments,Pending at State (national review sub-committee deck 4-Dec-2025)
+eKYC via UIDAI,Aadhaar-based eKYC,Pending at development finance partner (national review sub-committee deck 4-Dec-2025)
+AgriStack,"Land records, crop pattern and history for rule-based KCC limits",Named in the Minister's brief; status not given in the review decks
+Kisan Rin Portal (KRP),Replace manual entry of every borrower's loan data by PACS,Named in the Minister's brief; status not given in the review decks
+Jansamarth portal,Onboard PACS and cooperative banks; link CBS software,Named in the Minister's brief; status not given in the review decks
+Seven further integrations,Not named in the deck,On hold until e-PACS mode is achieved (national review sub-committee deck 4-Dec-2025)

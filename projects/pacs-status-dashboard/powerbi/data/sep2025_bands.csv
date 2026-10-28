@@ -1,0 +1,5 @@
+band,pacs
+Real-time (<=7d),128
+Recent (8-30d),169
+Lagging (31-180d),1188
+Stale (>180d),1009

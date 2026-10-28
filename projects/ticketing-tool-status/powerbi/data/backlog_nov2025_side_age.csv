@@ -1,0 +1,9 @@
+side,age_band,tickets
+With SI support,1-2 days,30
+With SI support,3-7 days,4
+With SI support,>7 days,1
+With SI support,Same day,16
+With Vendor,1-2 days,19
+With Vendor,3-7 days,15
+With Vendor,>7 days,3
+With Vendor,Same day,1

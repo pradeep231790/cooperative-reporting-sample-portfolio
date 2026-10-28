@@ -1,0 +1,124 @@
+dimension,key,tickets,over_tat,avg_age
+side,With SI support,51,4,1.16
+side,With Vendor,37,18,4.01
+category,Audit and YEP,10,3,2.58
+category,DCT Or PreMigration,1,1,3.0
+category,ERP - Post Go Live,68,19,2.51
+category,ERP Post YEP,2,0,1.67
+category,Roll Back,1,0,1.5
+category,ePACS Only,7,0,0.92
+module,Assets,1,1,6.0
+module,Audit Module,2,2,5.25
+module,Borrowing Module,7,0,0.69
+module,DCT,1,0,2.0
+module,Difference In Trial Balance,1,1,3.0
+module,ERP,1,0,1.0
+module,ERP Software Issue,1,1,7.0
+module,FAS Module,25,4,1.5
+module,Loan Module,17,6,3.77
+module,Membership Module,3,1,2.2
+module,Merchandise Module,9,2,2.0
+module,PDS Module,3,1,2.0
+module,Report Related Issue,2,1,4.0
+module,Reports Issue,5,2,2.11
+module,Saving Related Issue,7,2,2.92
+module,Term Deposit,3,1,2.4
+module,Thrift Deposit,1,1,7.0
+module,YEP Module,1,0,0.0
+module,YEP Related Issue,2,0,1.67
+subject,Asset and liability Amount Mismatch,1,0,0.0
+subject,Assets Issue,1,1,6.0
+subject,Audit Issue,1,1,3.0
+subject,Cash Payment Related Issue,1,0,1.0
+subject,Cash Receipt Related Issue,1,0,1.0
+subject,Closure  Forclosure Related Issue,1,1,3.5
+subject,Closure Related Issue,1,1,8.0
+subject,Collection Related Issue,4,0,0.71
+subject,Credit Limit Related Issue,1,0,0.0
+subject,Day End Related Issue,4,1,1.0
+subject,Default Transfer Related Issue,1,0,1.0
+subject,Difference In Trial Balance,2,1,2.0
+subject,Difference in PDS Module,1,1,3.0
+subject,Disbursements Related Issue,3,0,0.67
+subject,ERP Portal Not Working,1,1,7.0
+subject,ERP to DCT RollBack,1,0,1.0
+subject,Enroll Member Related Issue,1,0,1.0
+subject,Interest Calculation Related Issue,1,0,1.0
+subject,Interest Policy Related Issue,1,0,2.0
+subject,Land Declaration Related Issue,1,0,1.0
+subject,Ledger Recorder Related Issue,1,0,1.0
+subject,Loan Application Related Issue,1,1,5.0
+subject,Loan Collection Related Issue,8,2,1.86
+subject,Loan Disbursement Related Issue,3,1,2.17
+subject,Opening Stock Related Issue,1,0,2.0
+subject,Other Issue,1,0,2.0
+subject,Others Issue,1,0,1.0
+subject,Parameter Related Issue,1,0,1.0
+subject,Pass Voucher Related issue,2,0,0.33
+subject,Post Interest Related Issue,1,1,13.0
+subject,Pre-Migration to DCT,1,0,2.0
+subject,Purchase Related Issue,3,1,1.6
+subject,Purchase Voucher Related Issue,1,0,1.0
+subject,Report Mismatch,2,1,5.0
+subject,Report Related Issue,6,3,7.36
+subject,Reports Related Issue,17,4,1.9
+subject,Sale Cancel Related Issue,1,0,1.0
+subject,Sale Related Issue,3,1,2.6
+subject,Sale Voucher Related Issue,1,1,2.5
+subject,Sanction Others Related Issue,1,1,3.0
+subject,Saving Deposit Related Issue,2,1,1.67
+subject,Saving Withdrawal Related Issue,3,1,1.2
+subject,Share Deposit Related Issue,1,1,3.0
+subject,Thrift Deposit Closure Related Issue,1,1,7.0
+subject,Transaction Related Issue,1,0,1.0
+subject,Translate Issue,2,1,4.0
+subject,Voucher Deletion Issue,1,0,2.0
+subject,Voucher Deletion Related Issue,1,0,1.0
+subject,Voucher Posting Related Issue,1,0,1.0
+subject,Voucher Related Issue,1,1,3.0
+subject,YEP Issue,1,0,1.5
+district,District 01,1,0,2.0
+district,District 31,2,1,5.67
+district,District 16,1,0,1.0
+district,District 15,2,0,1.0
+district,District 39,1,0,0.0
+district,District 58,2,1,1.0
+district,District 35,3,1,11.2
+district,District 36,1,0,1.0
+district,District 05,2,0,1.5
+district,District 49,1,0,2.0
+district,District 29,1,0,1.0
+district,District 57,3,1,2.33
+district,District 12,1,0,1.0
+district,District 06,12,4,2.9
+district,District 52,7,4,3.17
+district,District 53,1,0,1.0
+district,District 18,2,1,2.67
+district,District 24,1,0,0.0
+district,District 13,2,0,0.0
+district,District 02,4,2,2.29
+district,District 60,2,0,1.33
+district,District 61,1,1,3.0
+district,District 22,2,0,1.25
+district,District 32,4,1,1.29
+district,District 38,1,0,0.0
+district,District 17,4,1,1.88
+district,District 10,3,0,1.0
+district,District 08,3,1,3.0
+district,District 28,3,1,3.8
+district,District 34,4,0,0.75
+district,District 44,7,0,0.92
+district,District 37,1,0,2.0
+district,District 55,2,1,2.33
+district,District 25,1,1,9.0
+district,District 20,1,1,3.0
+district,District 21,2,1,2.0
+district,District 04,1,0,2.0
+district,District 46,1,0,1.0
+district,District 19,1,0,1.5
+district,District 54,1,0,2.0
+district,District 27,2,2,4.25
+age_band,1-2 days,48,0,1.43
+age_band,3-7 days,19,19,4.37
+age_band,>7 days,3,3,16.83
+age_band,Same day,17,0,0.0

@@ -1,0 +1,21 @@
+metric,value,unit,as_of,source
+PACS sanctioned,2495.0,PACS,2025-12-04,national review sub-committee deck 4-Dec-2025
+DCT onboarding,2495.0,PACS,2026-02-09,State A review deck 9-Feb-2026
+ERP onboarding,2494.0,PACS,2026-02-09,State A review deck 9-Feb-2026
+Audit and YEP FY2023-24 completed,2495.0,PACS,2026-02-09,State A review deck 9-Feb-2026
+Audit and YEP FY2024-25 completed,2494.0,PACS,2026-02-09,State A review deck 9-Feb-2026
+e-PACS achieved,99.16,percent,2026-02-09,State A review deck 9-Feb-2026 (6 PACS pending apart from reorganised PACS)
+T-7 entry model,2495.0,PACS,2026-02-04,State A review deck 4-Feb-2026
+SMS gateway active,2494.0,PACS,2026-02-04,State A review deck 4-Feb-2026
+District support centres,49.0,centres,2026-02-04,State A review deck 4-Feb-2026 (plus 1 state command centre)
+Support team,60.0,people (60+),2026-02-04,State A review deck 4-Feb-2026
+Tickets raised,50460.0,tickets,2026-02-09,Issue List workbook
+Tickets resolved,50453.0,tickets,2026-02-09,Issue List workbook
+Enhancement requests raised,57.0,requests,2026-02-09,State A review deck 9-Feb-2026
+Enhancements completed,31.0,requests,2026-02-09,State A review deck 9-Feb-2026
+Integrations requested,7.0,integrations,2025-12-04,national review sub-committee deck 4-Dec-2025
+Integrations on hold until e-PACS mode,4.0,integrations,2025-12-04,national review sub-committee deck 4-Dec-2025
+Integrations pending at Vendor,2.0,integrations,2025-12-04,"national review sub-committee deck 4-Dec-2025 (State family-ID portal, State crop-loan portal, State land-record portal)"
+Integrations pending at State,1.0,integrations,2025-12-04,national review sub-committee deck 4-Dec-2025 (State procurement portal)
+Integrations pending at development finance partner,1.0,integrations,2025-12-04,national review sub-committee deck 4-Dec-2025 (eKYC via UIDAI)
+PACS identified for reorganisation,504.0,PACS,2026-02-04,State A review deck 4-Feb-2026

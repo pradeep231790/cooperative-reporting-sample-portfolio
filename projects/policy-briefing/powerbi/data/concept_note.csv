@@ -1,0 +1,33 @@
+sno,module,theme,enhancement,impact
+1,Membership,Integration,Integration with State family-ID portal Samajik Suraksha Mission & Land Records portal/ AgriStack . The membership form should be generated in ERP which should have all the details of m,Transparency and Scope for enabling online membership once a public interface(through App/ Website) is available
+2,KCC Sanction,Integration,"Integration with AgriStack/State land-record portal for auto fetching of validated member's land records, and development of process flow for the sanction of KCC as proposed. Also for ",De-duplication of work and better efficiency and scope for auto sanction- Alternative of Jansamarth in Commercial Banks
+3,Loan Disbursement - Kind,Reports,"Currently, DMR A/Cs are not captured in the ERP, owing to which the adjustment lists mentioned in the current flow are to be manually prepared, the records of sale in ERP","This will ensure the accuracy of the entries and usage of the ERP data in actual terms, avoiding delays and duplication "
+4,Loan Disbursement - Cash,district cooperative bank reconciliation,"Currently, DMR A/Cs are not captured in the ERP, owing to which the adjustment lists mentioned in the current flow are to be manually prepared, the records of sale in ERP",as above
+5,Loan Collection - Recovery,district cooperative bank reconciliation,"Currently, DMR A/Cs are not captured in the ERP, owing to which the adjustment lists mentioned in the current flow are to be manually prepared, the records of sale in ERP",as above
+6,Loan - Interest Subvention,Integration,"The API based integration of ePACS and Kisan Rin portal needs to be done, for auto submission of data like Commercial Banks.","This will stop the loss of income to PACS, ensure the accuracy of the entries and usage of the ERP data in actual terms,"
+7,Borrowings / Loan Disbursement from district cooperative bank Br to PACS,Integration,"Currently, only borrowing account is captured in the ERP, through which disbursement to farmers happen. While DMR A/Cs are not captured in the ERP, owing to which the adj","This will ensure the accuracy of the entries and usage of the ERP data in actual terms, avoiding delays, minimizing manu"
+8,All Modules,Process / workflow,,The said enhancement shall increase transparency and boost real time visibility of the PACS operations.
+9,Membership,Reports,"The reports are already available in the ePACS ERP software. The passbook may also be printed for loans, savings, share capital, etc.","This will ensure the accuracy of the entries and usage of the ERP data in actual terms, avoiding delays and duplication "
+10,Day Book,Reports,The reports are already available in the ePACS ERP software. Day Book report contains head wise/account wise cash and transfer entries.,"This will ensure the accuracy of the entries and usage of the ERP data in actual terms, avoiding delays and duplication "
+11,Loan,Process / workflow,,"This shall ensure real time receipt generation, ensuring the accuracy of the entries and usage of the ERP data in actual"
+12,Loan,Process / workflow,,"This shall ensure real time permit/sales bill generation, ensuring the accuracy of the entries and usage of the ERP data"
+13,PMFBY,Process / workflow,"As per the request of the district cooperative banks,The bulk facility for deducting the premiums of all the regular members need to be provided seasonwise to ease the operation of PACS.",
+14,Interest subvention posting on due dates,Interest subvention,The provision of automatically booking the 1.5% + 1.5% portions of interest subvention in the night of due dates of the Rabi and Kharif seasons for farmers who has not re,"Correct calculation of interest subvention, preparedness for the integration with KRP."
+13,Deposit A/C - Deposit/Withdrawal,Process / workflow,,
+14,Transactions between PACS & district cooperative bank Branch,Process / workflow,,
+15,FAS,Reports,"Currently once day end is done, user cant access any report so the after day end reports are only accessible next day. This hinders the verification at PACS level. So to ","This will ensure the accuracy of the entries and usage of the ERP data in actual terms, avoiding delays and duplication "
+16,Reports,Reports,"Currently once day end is done, user cant access any report so the after day end reports are only accessible next day. This hinders the verification at PACS level. So to ","This will ensure the accuracy of the entries and usage of the ERP data in actual terms, avoiding delays and duplication "
+17,"Merchandise Purchase & Its Payment, Sale",Integration,"Now the eVikas portal is made mandatory for taking the token for the fertilizer purchase, ERP needs to be integrated with eVikas (it is already integrated with AgriStack)","Streamlining of Merchanse Purchase, its payment and SALE"
+18,Search Option,Process / workflow,Aadhar/ State family-ID portal/ name based member search option,
+19,All Modules,Reports,"A rectification mechanism needs to be porvided by the Vendor so that instead of tamepring with the exisiting/legacy data, rectification is done on the current date, with r",De-duplication of work and better efficiency
+20,Loan Disbursement,Process / workflow,Vendor to provide the proviison of upload of excel file in which the loan disbursement data may be uploaded,De-duplication of work and better efficiency
+21,All Modules,Process / workflow,,Better efficiency for field staff
+22,Loans,Process / workflow,,De-duplication of work and better efficiency
+23,All Modules,Process / workflow,,"Better monitoing of the loaning, profitability, NPA and other important variables, and to get a 198 degree view of the s"
+24,All Modules,Process / workflow,,Better efficiency and guidance for the PACS personnel handling the ePACS software
+25,FAS,Process / workflow,,Better efficiency and less chances of reports mismatch and rectifications
+26,All Modules,Process / workflow,,"Better efficiency and guidance for the PACS personnel handling the ePACS software, and robust maker checker system deplo"
+27,All Modules,Process / workflow,,Better accountability
+28,Deposits,Process / workflow,,Better efficiency and better accountability and robust maker checker system deployment
+29,All Modules,Process / workflow,,This will assist the State in billing of SMS services
+30,All Modules,Process / workflow,The members should be transferred to new PACS based on the villages selection in the parent PACS and the other heads should be bifurcated as per the SOP issued by cooperative registrar. NL,

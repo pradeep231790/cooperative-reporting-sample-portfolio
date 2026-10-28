@@ -1,0 +1,18 @@
+dimension,key,tasks,avg_days_to_complete
+priority,P0,21,
+priority,P1,10,51.0
+priority,P2,6,
+priority,P3,7,51.0
+priority,Unassigned,23,
+status,Completed,36,51.0
+status,Need to Discuss with Team,3,
+status,Not updated,27,
+testing,Completed,18,51.0
+testing,Not updated,2,
+testing,Pending,47,
+level,All levels,30,51.0
+level,C1,5,
+level,L1,5,
+level,L2,3,
+level,Other,20,
+level,Pacs,3,51.0

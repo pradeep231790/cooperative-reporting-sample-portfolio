@@ -1,0 +1,12 @@
+metric,value,group
+Total Issue Raised,50460,Raised
+Total Issue Raised by Pacs,46534,Raised
+Total Issue Raised by L1,3926,Raised
+Total Issue Resolved,50453,Resolved
+Total Issue Resolved by L1,16012,Resolved
+Total Issue Resolved by L2,9778,Resolved
+Total Issue Resolved by Vendor,24663,Resolved
+Total Pending Issue,7,Pending
+Total Pending Issue at L1,4,Pending
+Total Pending Issue at L2,0,Pending
+Total Pending Issue at Vendor,3,Pending

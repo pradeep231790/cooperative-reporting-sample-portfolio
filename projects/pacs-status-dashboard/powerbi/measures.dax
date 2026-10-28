@@ -1,0 +1,32 @@
+// DAX measures for PACS Status Dashboard: State A
+// Create a table named _Measures (Enter data, blank) and add each measure below.
+
+// PACS whose last day-end is on or after 31-Mar-2025
+PACS with a current day-end (5-Nov-2025) = SUM(dayend_snapshots[current])
+
+// Share of all PACS with a current day-end
+Current day-end % = DIVIDE(SUM(dayend_snapshots[current]), SUM(dayend_snapshots[total]))
+
+// Increase in current-day-end PACS from the first to the last snapshot
+Gain since 29-Sep-2025 = MAX(dayend_snapshots[current]) - MIN(dayend_snapshots[current])
+
+// Mean days between the snapshot date and each PACS's last day-end
+Average day-end lag (days) = AVERAGE(dayend_progress_district[avg_gap])
+
+// PACS whose last entry is more than 180 days old
+Entry older than 180 days (6-Nov) = DIVIDE(CALCULATE(SUM(gap_bands[pacs]), gap_bands[measure] = "Entry gap", gap_bands[band] IN {"181-365", ">365"}), CALCULATE(SUM(gap_bands[pacs]), gap_bands[measure] = "Entry gap"))
+
+// PACS working on the ERP as reported in the 4-Dec review
+Working PACS (3-Dec-2025) = DIVIDE(SUM(working_status_3dec2025[working]), SUM(working_status_3dec2025[total_pacs]))
+
+// PACS whose last day-end is 31-Mar-2025 or earlier (3-Dec)
+Laggards: day-end on or before 31-Mar-2025 = SUM(laggards_3dec2025[dayend_on_or_before_31mar2025])
+
+// PACS live on the ERP
+ERP go-live % (18-Sep-2025) = DIVIDE(SUM(sep2025_district[golive]), SUM(sep2025_district[total_pacs]))
+
+// PACS with an analyst health score below 40
+Red PACS (health score < 40, 18-Sep-2025) = SUM(sep2025_district[red])
+
+// PACS on the Red Zone list for audit
+Red Zone PACS (Nov-2025 list) = SUM(redzone_district[red_zone_pacs])

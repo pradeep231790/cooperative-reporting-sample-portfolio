@@ -1,0 +1,21 @@
+nature,sub_nature,priority
+Technical,DCT - Customer Module,High
+Technical,DCT - Land Module,High
+Technical,DCT - Savings Module,High
+Technical,DCT - Loan Module,High
+Technical,Pre Migration,High
+Technical,ERP,High
+Report,DCT - Customer Module,High
+Report,DCT - Land Module,High
+Report,DCT - Savings Module,High
+Report,DCT - Loan Module,High
+Report,Pre Migration,High
+Report,ERP,High
+Data,DCT - Customer Module,High
+Data,DCT - Land Module,High
+Data,DCT - Savings Module,High
+Data,DCT - Loan Module,High
+Data,Pre Migration,High
+Data,ERP,High
+Field Operations,Field Operations,High
+Other,Other,High

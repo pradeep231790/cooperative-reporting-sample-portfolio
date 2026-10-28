@@ -1,0 +1,4 @@
+metric,statea_pacs,statea_total,stateb_pacs,source,stateb_total,statea_pct,stateb_pct
+DCT done,2495,2495,833,State A 9-Feb-2026; State B deck,980,100.0,85.0
+ERP onboarded,2494,2495,805,State A 9-Feb-2026; State B deck,980,100.0,82.1
+Dynamic day-end (T-7 entry model),2495,2495,129,State A 4-Feb-2026; State B deck,980,100.0,13.2

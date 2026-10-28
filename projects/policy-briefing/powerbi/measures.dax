@@ -1,0 +1,29 @@
+// DAX measures for Policy Briefing: Cooperative Services Sample
+// Create a table named _Measures (Enter data, blank) and add each measure below.
+
+// Share of PACS working in e-PACS mode (9-Feb-2026 sample)
+e-PACS achieved = CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "e-PACS achieved")
+
+// PACS onboarded on the ERP
+ERP onboarding = CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "ERP onboarding")
+
+// PACS with audit and year-end completed for 2024-25
+Audit and YEP FY2024-25 = CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "Audit and YEP FY2024-25 completed")
+
+// Tickets resolved as share of tickets raised
+Ticket resolution rate = DIVIDE(CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "Tickets resolved"), CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "Tickets raised"))
+
+// Completed enhancement requests as share of requests raised
+Enhancements completed = DIVIDE(CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "Enhancements completed"), CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "Enhancement requests raised"))
+
+// PACS identified for bifurcation or reorganisation
+PACS identified for reorganisation = CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "PACS identified for reorganisation")
+
+// Portal integrations requested from Vendor
+Integrations requested = CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "Integrations requested")
+
+// District-level support centres (plus the state command centre)
+Support centres = CALCULATE(SUM(statea_scorecard[value]), statea_scorecard[metric] = "District support centres")
+
+// Directions under review
+Directions tracked = COUNTROWS(policy_directions)

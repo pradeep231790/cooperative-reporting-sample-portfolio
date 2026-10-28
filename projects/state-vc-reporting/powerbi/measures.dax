@@ -1,0 +1,29 @@
+// DAX measures for State VC Reporting: PACS Computerization, State A
+// Create a table named _Measures (Enter data, blank) and add each measure below.
+
+// PACS with audit completed on 3-Dec-2025 (4-Dec deck)
+Audit and YEP completed (3-Dec-2025) = CALCULATE(SUM(audit_progress_district[audit_3dec]))
+
+// Audit completed as share of all PACS
+Audit completion (3-Dec-2025) = DIVIDE(SUM(audit_progress_district[audit_3dec]), SUM(audit_progress_district[total_pacs]))
+
+// Increase in audit completed between 20-Nov and 3-Dec
+Audit gain in two weeks = SUM(audit_progress_district[audit_3dec]) - SUM(audit_progress_district[audit_20nov])
+
+// Audit completed as share of all PACS (18-Dec deck, different base)
+Audit completion (18-Dec-2025) = DIVIDE(SUM(audit_progress_district[audit_18dec]), SUM(audit_progress_district[total_pacs_dec18]))
+
+// PACS with e-PACS completed on 3-Dec-2025 (4-Dec deck)
+e-PACS completed (3-Dec-2025) = SUM(epacs_progress_district[epacs_3dec])
+
+// Certificates issued up to 18-Dec-2025 (18-Dec deck)
+e-PACS certificates (18-Dec-2025) = SUM(epacs_progress_district[cert_18dec])
+
+// Certificates added between 14-Nov and 18-Dec-2025
+e-PACS certificate growth = SUM(epacs_progress_district[cert_18dec]) - SUM(epacs_progress_district[cert_14nov])
+
+// PACS on the pending list without a certificate
+PACS pending e-PACS certificate (25-Jan-2026) = SUM(cert_pending_district_25jan2026[certificate_pending])
+
+// Week-1 achievement against week-1 target
+Week-1 e-PACS target achieved (6-Nov-2025) = DIVIDE(SUM(weekly_epacs_target_6nov[w1_ach]), SUM(weekly_epacs_target_6nov[w1_target]))

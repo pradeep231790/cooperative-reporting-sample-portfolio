@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+**/data/raw/*
+!**/data/raw/README.md
+**/data/private/*
+!**/data/private/README.md

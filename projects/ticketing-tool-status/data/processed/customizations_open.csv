@@ -1,0 +1,46 @@
+cui,customization,assigned_to,start,age_days
+MP0012,mobile app for pacs members ,Vendor,2024-04-02,610
+MP0013,State family-ID portal Integration,Vendor,2024-07-03,518
+MP0016,State crop-loan portal Portal Integration,Vendor,2024-07-03,518
+MP0017,State procurement portal integration,State,2024-07-03,518
+MP0014,UIDAI integration for ekyc,development finance partner,2024-07-03,518
+MP0015,land-record portal Integration,Vendor,2024-07-03,518
+MP0018,2 Factor Authentication,Vendor,2024-07-03,518
+MP0019,"User id for district cooperative bank branch, district cooperative bank HO for the approval of masters and sanction of limit along with logins of StCB and cooperative registrar Office for monitoring of PACS",Vendor,2024-07-03,518
+MP0011,"Policy update via masters, under the control of district cooperative banks so that uniform policies are maintained throughout",Vendor,2024-07-03,518
+MP0009,"Post go-live, open new accounts under chart of accounts after approval by district cooperative bank to ensure compliance with Common Accounting System",Vendor,2024-07-03,518
+MP0022,Interest rates override facility using Master Data Management,Vendor,2024-07-03,518
+MP0021,"Currently in every season the limits of each farmer are to be created individually which takes a lot of time & effort of PACS officials. For ease of doing business there should be an option of renewal of Net Credit Limit (NCL) in bulk mode and the same should be forwarded by district cooperative bank branch to district cooperative bank HO for its approval. It will streamline the entire process of loan sanctioning.
+",Vendor,2024-07-03,518
+MP0020,"Loan - product definition - option to add or define products directly at frontend in parallel run; post live, the functionality may be provided to district cooperative bank master",Vendor,2024-07-03,518
+MP0091,District and district cooperative bank wise dashboard with consolidated figures on Coopsindia portal along with detailed reports downloadable from the same.,Vendor,2025-01-23,314
+MP0092,Option to upload ePACS certificate in the Coopsindia portal,Vendor,2025-04-03,244
+MP0072,Transliteration correction,Vendor,2025-07-14,142
+MP0073,Loan Form Generation and Loan Disbursement Alert ,Vendor,2025-07-16,140
+MP0074,Email notifications,Vendor,2025-07-22,134
+MP0075,Role based reports,Vendor,2025-07-23,133
+MP0077,All product selection option in group demand view,Vendor,2025-07-24,132
+MP0076,"Interest subvention report, booking wise",Vendor,2025-07-24,132
+MP0078,Mobile APP for PACS,Vendor,2025-07-24,132
+MP0090,Parking adjustment entries not to affect subvention entries,Vendor,2025-08-12,113
+MP0089,Subvention reports in KRP compliant formats,Vendor,2025-08-12,113
+MP0088,"Generation of composite report for both Kharif and Rabi products in Loan module & Loan report to have cash, kind and crop insurance amount",Vendor,2025-08-12,113
+MP0087,Warning popup during loan disbursement to overdue members,,2025-08-12,113
+MP0086,option to delete auditor details,Vendor,2025-08-12,113
+MP0082,Disbursement date edit option request,,2025-08-12,113
+MP0081,Request for parking authorisation restriction,Vendor,2025-08-12,113
+MP0080,Request to add ePACS column in Coopsindia,Vendor,2025-08-12,113
+MP0083,Detailed clarification on board of directors and other modules,,2025-08-15,110
+MP0085,stock update option (after deletion of vouchers),,2025-08-23,102
+MP0084,Print Vouchers as per specified date range,Vendor,2025-08-24,101
+MP0093,"The State has requested Automatic Day End activation for PACS which have reached ePACS mode, via a district cooperative bank-controlled Master Data Management Module, so that the ePACS mode may be sustained and entries are mandatorily made on the same day of the actual transaction.",Vendor,2025-11-12,21
+MP0094,The State has requested the provision of Reverse Voucher entries so that any rectification of erroneous data entries may be done in real time and without affecting the database using backend rectification tools.,Vendor,2025-11-12,21
+MP0095,The State has requested the facility of bulk upload in loan disbursement so that manual entries and the issues occurring thereof may be minimized,Vendor,2025-11-12,21
+MP0096,"The provision of migration of data from parent PACS to the newly formed PACS as a result of Reorganization is awaited from Vendor. If this is not provided it will result in the rollback of 715 PACS to DCT stage in the state, resulting in to the setback to the project.",Vendor,2025-11-12,21
+MP0097,"MIS of any kind is not provided to district cooperative bank/StCB or cooperative registrar with regards to Loan, Deposits, Share Cap/ Interest Subvention. For PACS reports needs to be generated as per CAS or 198 degree report for customer. Report generation system needs to be made more robust. Currently, entered voucher details can be fetched only for 15 days. For large reports, there needs to be a mechanism of report generation and storage to backend, which may be downloaded later, in case the cloud infrastructure is affected by generating large (fy) voucher reports",Vendor,2025-11-12,21
+MP0098,"Root Cause Analysis Reports - Differences in trial balance before and after operations such as day end, yearend; difference in module and FAS reports; these recurring anomalies need to be investigated via a root cause analysis process, where the complete workflow of the operation needs to be checked (stimuli-reaction-report).",Vendor,2025-11-12,21
+MP0099,Report builder module which can generate custom reports based on the needs of the PACS/district cooperative bank needs to be activated by Vendor,Vendor,2025-11-12,21
+MP0100,"The ePACS software should, upon logging in, provide the option to the operator/user to go to the last voucher pending for posting, or the last voucher where either debit or credit entry is missing, or stay on the homepage/dashboard. This way, the operator shall be reminded of the last task",Vendor,2025-11-12,21
+MP0101,"Currently, while doing day end, the system throws an error message if there is a trial balance mismatch. The system should also check if module and fas difference report are coming properly, stock in merchandise module report and stock while doing sales is matching, etc. Before Day End background reports check needs to be made more robust",Vendor,2025-11-12,21
+MP0102,For the Accountability of transaction following things will be needed- Display user (Teller) login ID in the voucher. The User wise reports should also be available,Vendor,2025-11-12,21
+MP0103,"Member to receive an online receipt via SMS that opens in a browser. The Vendor may embed a standard HTTPS URL hyperlink within the text message. When the recipient taps this link, their smartphone's browser will be prompted to open the specified webpage, which displays the receipt. This is especially helpful for situations where receipt is to be provided to farmer and the PACS is experiencing a power cut or printer out of service for any other reason. ",Vendor,2025-11-19,14

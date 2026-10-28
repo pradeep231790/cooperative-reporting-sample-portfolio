@@ -1,0 +1,22 @@
+{
+  "name": "Training Status: PACS Computerization, State A theme",
+  "dataColors": [
+    "#1F7A8C",
+    "#D99A00",
+    "#C0392B",
+    "#6A5ACD",
+    "#2E8B57",
+    "#E07B39",
+    "#5B717A",
+    "#9CCBD4"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#14313B",
+  "tableAccent": "#1F7A8C",
+  "good": "#2E8B57",
+  "neutral": "#D99A00",
+  "bad": "#C0392B",
+  "maximum": "#1F7A8C",
+  "center": "#D99A00",
+  "minimum": "#C0392B"
+}
