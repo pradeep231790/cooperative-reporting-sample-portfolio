@@ -4,7 +4,7 @@ Five reporting demonstrations for a cooperative-services program: one KPI framew
 
 > **Sample data notice.** This is an anonymized, rescaled portfolio edition. Organization and stakeholder names have been generalized; district, branch, and bank labels are pseudonyms. The figures are illustrative examples based on reporting patterns, not current operational results, and must not be used for decisions. Original source documents, personal records, contact details, and credentials are excluded. Public release should follow the data owner's approval process.
 
-**Live dashboards:** `https://<your-github-username>.github.io/<this-repo-name>/` (enable GitHub Pages on the `main` branch, root folder).
+**Live dashboards:** [cooperative-reporting-sample-portfolio](https://pradeep231790.github.io/cooperative-reporting-sample-portfolio/) (GitHub Pages from `main` / root).
 
 ## Catalogue
 
